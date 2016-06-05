@@ -17,6 +17,12 @@ Algorithms are
 Here [Breast Cancer Wisconsin (Diagnostic) Data Set](http://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29) is used to test them.
 It's easy to add readers for other data if you want to try.
 
+## How to Run
+
+```
+sbt run
+```
+
 ## Reference
 
 - [「オンライン機械学習」サポートページ](https://sites.google.com/site/daisukeokanohara/kodansha_online_learning)
