@@ -5,7 +5,7 @@ import breeze.linalg.{DenseMatrix, DenseVector}
   * Perceptron
   *
   * @param w weight vector
-  * @see [[http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.588.3775 The perceptron: A probabilistic model for information storage and organization in the brain]]
+  * @see [[http://dl.acm.org/citation.cfm?id=104386 The perception: a probabilistic model for information storage and organization in the brain]]
   */
 class Perceptron private (w: DenseVector[Double]) extends LinearClassifier(w, DenseMatrix.eye[Double](w.size)) {
   /**
